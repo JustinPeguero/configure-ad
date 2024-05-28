@@ -67,8 +67,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Login to Client-1 using Microsoft Remote Desktop
 - Search for Command Prompt and open it
-- Ping DC-1's private IP Address (for example, 10.1.0.4)
-	- Type "ping -t 10.1.0.4" into the command-line interface
+- Ping DC-1's private IP Address (for example, 10.0.0.4)
+	- Type "ping -t 10.0.0.4" into the command-line interface
 	- The ping request continually  times out due to the firewall settings
 		- To fix this, we need to enable ICMPv4 on DC-1's local Windows firewall
 
